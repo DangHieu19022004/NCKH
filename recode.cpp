@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Sử dụng map với vector thay vì chỉ vector
 map<string, vector<pair<string, int>>> Mang;
 
 void Them() {
@@ -21,9 +20,9 @@ void Them() {
 }
 
 const int INF = 1e9;
-unordered_map<string, string> pre;
+map<string, string> pre;
 
-void test(unordered_map<string, long long> &KhoangCach, string start){
+void BatDauTT(map<string, long long> &KhoangCach, string start){
     KhoangCach["Hai Phong"] = INF;
     KhoangCach["Hai Duong"] = INF;
     KhoangCach["Ho Chi Minh"] = INF;
@@ -33,34 +32,22 @@ void test(unordered_map<string, long long> &KhoangCach, string start){
     KhoangCach[start] = 0;
 }
 
-
-
 void dijkstra(string start, string end) {
-    // Sử dụng map với long long thay vì vector
-    unordered_map<string, long long> KhoangCach;
-    test(KhoangCach, start);
-    // Khởi tạo khoảng cách từ đỉnh xuất phát đến chính nó là 0
-    // KhoangCach[start] = 0;
-
+    map<string, long long> KhoangCach;
+    BatDauTT(KhoangCach, start);
     priority_queue<pair<long long, string>, vector<pair<long long, string>>, greater<pair<long long, string>>> KC_Dinh;
     KC_Dinh.push({0, start});
-    
-    vector<string> testkc;
-
+    vector<string> ThuTuDuyet;
     while (!KC_Dinh.empty()) {
         pair<long long, string> top = KC_Dinh.top();
         KC_Dinh.pop();
         string Dinh_Dang_Xet = top.second;
         long long khoangCach = top.first;
-
         if (khoangCach > KhoangCach[Dinh_Dang_Xet]) continue;
-
-        testkc.push_back(Dinh_Dang_Xet);
-
-        for (auto& it : Mang[Dinh_Dang_Xet]) {
+        ThuTuDuyet.push_back(Dinh_Dang_Xet);
+        for (auto it : Mang[Dinh_Dang_Xet]) {
             string Dich = it.first;
             long long kc = it.second;
-
             if (KhoangCach[Dich] > KhoangCach[Dinh_Dang_Xet] + kc) {
                 KhoangCach[Dich] = KhoangCach[Dinh_Dang_Xet] + kc;
                 pre[Dich] = Dinh_Dang_Xet;
@@ -68,12 +55,10 @@ void dijkstra(string start, string end) {
             }
         }
     }
-
-    // In ra khoảng cách sau khi tính toán
-    for (const string& city : testkc) {
+    for (const string& city : ThuTuDuyet) {
         cout << city << ":" << KhoangCach[city] << ' ';
     }
-    cout << endl << endl;
+    cout << endl;
     if(KhoangCach[end] == INF){
         cout << "Khong co duong di tu " << start << " den " << end << endl;
     }else{
