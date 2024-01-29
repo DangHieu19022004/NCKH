@@ -46,9 +46,10 @@ void dijkstra(int s){
 		}
 	}
 	//In ra quãng đường đi ngắn nhất từ s đến t
-	// for(int i = 1; i <= n; i++){
-	// 	cout << d[i] << ' ';
-	// }
+	for(int i = 1; i <= n; i++){
+		cout << d[i] << ' ';
+	}
+	cout << endl << endl;
 	//In ra đường đi ngắn nhất từ s đến t
 	// In thứ tự các đỉnh trên đường đi từ s đến t
     if (d[t] == INF) {
