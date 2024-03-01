@@ -1,0 +1,98 @@
+﻿{
+   "results" : 
+   [
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "175",
+               "short_name" : "175",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Phố Tây Sơn",
+               "short_name" : "P. Tây Sơn",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Đống Đa",
+               "short_name" : "Đống Đa",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Hà Nội",
+               "short_name" : "Hà Nội",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Vietnam",
+               "short_name" : "VN",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "116705",
+               "short_name" : "116705",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "175 P. Tây Sơn, Trung Liệt, Đống Đa, Hà Nội 116705, Vietnam",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 21.0073466,
+               "lng" : 105.8247304
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 21.0086442302915,
+                  "lng" : 105.8261398302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 21.0059462697085,
+                  "lng" : 105.8234418697085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJpVt2CYGsNTER7oBW4OxAR9g",
+         "plus_code" : 
+         {
+            "compound_code" : "2R4F+WV Đống Đa, Hanoi, Vietnam",
+            "global_code" : "7PH72R4F+WV"
+         },
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

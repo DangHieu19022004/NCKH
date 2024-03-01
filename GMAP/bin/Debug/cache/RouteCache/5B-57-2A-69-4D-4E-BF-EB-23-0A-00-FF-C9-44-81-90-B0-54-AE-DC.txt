@@ -1,0 +1,112 @@
+﻿{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ0Y9CNHysNTER-R4KG5H0a04",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ0Y9CNHysNTER-R4KG5H0a04",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 21.0020474,
+               "lng" : 105.8324444
+            },
+            "southwest" : 
+            {
+               "lat" : 21.0020474,
+               "lng" : 105.8324444
+            }
+         },
+         "copyrights" : "Map data ©2024",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : 
+               {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Nhà E4, 1 P. Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội, Vietnam",
+               "end_location" : 
+               {
+                  "lat" : 21.0020474,
+                  "lng" : 105.8324444
+               },
+               "start_address" : "Nhà E4, 1 P. Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội, Vietnam",
+               "start_location" : 
+               {
+                  "lat" : 21.0020474,
+                  "lng" : 105.8324444
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 21.0020474,
+                        "lng" : 105.8324444
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : 
+                     {
+                        "points" : "y}d_Cwk}dS"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 21.0020474,
+                        "lng" : 105.8324444
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "y}d_Cwk}dS"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
