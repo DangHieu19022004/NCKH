@@ -30,9 +30,9 @@
         {
             dataGridView1 = new DataGridView();
             panel1 = new Panel();
+            label1 = new Label();
             button1 = new Button();
             comboBox1 = new ComboBox();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -60,13 +60,22 @@
             panel1.Size = new Size(880, 90);
             panel1.TabIndex = 1;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.ControlLightLight;
+            label1.Location = new Point(53, 58);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 20);
+            label1.TabIndex = 2;
+            // 
             // button1
             // 
             button1.Location = new Point(610, 18);
             button1.Name = "button1";
             button1.Size = new Size(146, 29);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Xem lộ trình";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -77,15 +86,6 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(463, 28);
             comboBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(53, 58);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 20);
-            label1.TabIndex = 2;
             // 
             // Form3
             // 
