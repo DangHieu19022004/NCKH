@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace shipper
 {
@@ -16,7 +17,8 @@ namespace shipper
         {
             InitializeComponent();
         }
-
+        // Phương thức nhận dữ liệu từ Form1
+ 
         private void Form2_Load(object sender, EventArgs e)
         {
 
@@ -33,6 +35,11 @@ namespace shipper
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

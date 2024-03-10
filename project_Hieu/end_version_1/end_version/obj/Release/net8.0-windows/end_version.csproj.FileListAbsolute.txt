@@ -156,3 +156,6 @@ E:\hoc\project_Hieu\end_version_1\end_version\bin\Release\net8.0-windows\runtime
 E:\hoc\project_Hieu\end_version_1\end_version\bin\Release\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 E:\hoc\project_Hieu\end_version_1\end_version\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\hoc\project_Hieu\end_version_1\end_version\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\LapTrinhWindowns\NCKH\project_Hieu\end_version_1\end_version\obj\Release\net8.0-windows\end_version.dll
+E:\LapTrinhWindowns\NCKH\project_Hieu\end_version_1\end_version\obj\Release\net8.0-windows\refint\end_version.dll
+E:\LapTrinhWindowns\NCKH\project_Hieu\end_version_1\end_version\obj\Release\net8.0-windows\end_version.pdb
