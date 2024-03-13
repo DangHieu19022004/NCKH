@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\hoc\\project_Hieu\\end_version_1\\end_version\\end_version.csproj": {}
+    "E:\\hoc\\NCKH\\project_Hieu\\end_version_1\\end_version\\end_version.csproj": {}
   },
   "projects": {
-    "E:\\hoc\\project_Hieu\\end_version_1\\end_version\\end_version.csproj": {
+    "E:\\hoc\\NCKH\\project_Hieu\\end_version_1\\end_version\\end_version.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\hoc\\project_Hieu\\end_version_1\\end_version\\end_version.csproj",
+        "projectUniqueName": "E:\\hoc\\NCKH\\project_Hieu\\end_version_1\\end_version\\end_version.csproj",
         "projectName": "end_version",
-        "projectPath": "E:\\hoc\\project_Hieu\\end_version_1\\end_version\\end_version.csproj",
+        "projectPath": "E:\\hoc\\NCKH\\project_Hieu\\end_version_1\\end_version\\end_version.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "E:\\hoc\\project_Hieu\\end_version_1\\end_version\\obj\\",
+        "outputPath": "E:\\hoc\\NCKH\\project_Hieu\\end_version_1\\end_version\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

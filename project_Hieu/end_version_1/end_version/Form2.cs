@@ -92,6 +92,8 @@ namespace end_version
             FindMinValue(inputAlgorithm);
             Try(1, inputAlgorithm);
         }
+
+
         //end
         public List<PointLatLng> start = new List<PointLatLng>();
         public List<PointLatLng> end = new List<PointLatLng>();
