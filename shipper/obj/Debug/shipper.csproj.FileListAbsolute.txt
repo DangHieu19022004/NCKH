@@ -9,3 +9,14 @@ E:\LapTrinhWindowns\shipper\obj\Debug\shipper.csproj.CoreCompileInputs.cache
 E:\LapTrinhWindowns\shipper\obj\Debug\shipper.exe
 E:\LapTrinhWindowns\shipper\obj\Debug\shipper.pdb
 E:\LapTrinhWindowns\shipper\obj\Debug\shipper.Form2.resources
+E:\LapTrinhWindowns\NCKH\shipper\bin\Debug\shipper.exe.config
+E:\LapTrinhWindowns\NCKH\shipper\bin\Debug\shipper.exe
+E:\LapTrinhWindowns\NCKH\shipper\bin\Debug\shipper.pdb
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.csproj.AssemblyReference.cache
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.Form1.resources
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.Form2.resources
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.Properties.Resources.resources
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.csproj.GenerateResource.cache
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.csproj.CoreCompileInputs.cache
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.exe
+E:\LapTrinhWindowns\NCKH\shipper\obj\Debug\shipper.pdb

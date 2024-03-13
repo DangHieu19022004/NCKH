@@ -51,7 +51,7 @@ namespace client
         void Connect()
         {
             //IP: dia chi sever
-            IP = new IPEndPoint(IPAddress.Parse("192.168.80.1"), 9999);
+            IP = new IPEndPoint(IPAddress.Parse("192.168.247.51"), 9999);
             // client: lo cam de ket noi sever
             client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
             try
