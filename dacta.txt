@@ -1,0 +1,15 @@
+admin đăng nhập tk admin
+chức năng chia đơn hàng:
+	đầu vào có 1 danh sách các đơn hàng, 1 danh sách shipper, chia đều đơn hàng ra cho các shipper. lưu vào bảng mới gọi là bảng quản lý đơn hàng như trên
+
+admin ấn vào quản lý đơn hàng. Hệ thống hiển thị toàn bộ danh sách đơn hàng, người nhận, trạng thái (đã giao hoặc chưa giao). cụ thể admin sẽ chỉ thấy Tên kh, địa chỉ kh, sdt kh, tên shipper, sdt shiper, mã shipper, trạng thái (đã giao/chưa giao) - ban đầu trạng thái đặt là chưa giao
+
+admin ấn vào quản lý shipper. Hệ thống hiển thị bảng thông tin của tất cả shipper
+
+---------------------------------------------
+
+shipper dăng nhập tk shipper
+Đầu tiên hiển thị thông tin cá nhân, ảnh đại diện, bla bla ....
+
+Nhân viên ấn nút xem đơn hàng. Hệ thống chuyển sang giao diện xem đơn hàng. Tại đây có danh sách các đơn hàng đã được hệ thống giao. shipper chọn đơn hàng đã giao trong listview và ấn đã giao. Hệ thống thực hiện xóa đơn hàng khỏi giao diện của shipper. Đặt thuộc tính trạng thái giao hàng trong bảng quản lý đơn hàng là đã giao
+Ở dưới bảng danh sách đơn hàng có tuyến đường gợi ý mà hệ thống gợi ý cho shipper
