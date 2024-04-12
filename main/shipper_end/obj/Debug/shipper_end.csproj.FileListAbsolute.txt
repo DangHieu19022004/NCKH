@@ -1,0 +1,11 @@
+E:\LapTrinhWindowns\nckh\shipper_end\bin\Debug\shipper_end.exe.config
+E:\LapTrinhWindowns\nckh\shipper_end\bin\Debug\shipper_end.exe
+E:\LapTrinhWindowns\nckh\shipper_end\bin\Debug\shipper_end.pdb
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.csproj.AssemblyReference.cache
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.frmLogin.resources
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.Properties.Resources.resources
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.csproj.GenerateResource.cache
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.csproj.CoreCompileInputs.cache
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.exe
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.pdb
+E:\LapTrinhWindowns\nckh\shipper_end\obj\Debug\shipper_end.frmMain.resources
