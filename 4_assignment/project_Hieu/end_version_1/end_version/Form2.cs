@@ -177,6 +177,7 @@ namespace end_version
                 label1.Text = "chưa có đơn hàng";
                 return;
             }
+
             double[,] inputAlgorithm = new double[list.Count, list.Count];
             for (int i = 0; i < list.Count; i++)
             {

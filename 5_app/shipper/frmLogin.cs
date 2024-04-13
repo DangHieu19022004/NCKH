@@ -15,7 +15,7 @@ namespace shipper_end
     
     public partial class frmLogin : Form
     {
-        string StrCon = @"Data Source=LEVANQUANG;Initial Catalog=shipper;Integrated Security=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;TrustServerCertificate=True";
         SqlConnection conn = null;
        
         public frmLogin()

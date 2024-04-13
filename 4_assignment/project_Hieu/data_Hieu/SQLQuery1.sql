@@ -4,13 +4,17 @@ ALTER TABLE dbo.shipper_table ADD CONSTRAINT shipper_assignment FOREIGN KEY (shi
 
 SELECT * FROM dbo.orders_table
 
+SELECT * FROM dbo.account
+
+SELECT * FROM dbo.assignment
+
 DELETE FROM dbo.assignment
 
 ALTER TABLE dbo.assignment	
 ADD CONSTRAINT PK_Assignment PRIMARY KEY (order_id, shipper_id)
 
 ALTER TABLE dbo.assignment
-DROP CONSTRAINT order_assignment
+DROP CONSTRAINT UC_order_id
 
 ALTER TABLE dbo.assignment
 DROP CONSTRAINT UC_order_id
