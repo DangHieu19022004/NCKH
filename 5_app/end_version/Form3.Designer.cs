@@ -1,6 +1,6 @@
 ﻿namespace end_version
 {
-    partial class dgvOrders
+    partial class Orders
     {
         /// <summary>
         /// Required designer variable.
@@ -43,7 +43,7 @@
             dataGridView1.Size = new Size(835, 287);
             dataGridView1.TabIndex = 0;
             // 
-            // dgvOrders
+            // Orders
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -51,9 +51,9 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(835, 450);
             Controls.Add(dataGridView1);
-            Name = "dgvOrders";
+            Name = "Orders";
             SizeGripStyle = SizeGripStyle.Show;
-            Text = "Form3";
+            Text = "Orders";
             Load += Form3_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

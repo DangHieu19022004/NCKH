@@ -11,14 +11,13 @@ using System.Windows.Forms;
 
 namespace end_version
 {
-    public partial class dgvOrders : Form
+    public partial class Orders : Form
     {
-        public dgvOrders()
+        public Orders()
         {
             InitializeComponent();
         }
         string StrCon = @"Data Source=LEVANQUANG;Initial Catalog=shipper;Integrated Security=True;TrustServerCertificate=True";
-        // dùng dòng kia mới kết nối được, nếu cop nguyên ra k được đâu :)))=))
         SqlConnection con = null;
 
         private void Form3_Load(object sender, EventArgs e)

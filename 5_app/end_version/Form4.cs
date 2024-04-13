@@ -18,7 +18,6 @@ namespace end_version
     public partial class Form4 : Form
     {
         string StrCon = @"Data Source=LEVANQUANG;Initial Catalog=shipper;Integrated Security=True;TrustServerCertificate=True";
-        // dùng dòng kia mới kết nối được, nếu cop nguyên ra k được đâu :)))=))
         SqlConnection con = null;
 
         public Form4()

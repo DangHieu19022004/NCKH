@@ -46,7 +46,7 @@
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new dgvOrders());
+            OpenChildForm(new Orders());
             label1.Text = button2.Text;
         }
 
