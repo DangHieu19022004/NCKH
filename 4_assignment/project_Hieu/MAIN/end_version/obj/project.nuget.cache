@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zdJ66aTrAx0c0W3pYu0D4S5gDUFSrk4XaA4NGB61dho43aSeGJ6blh1KmojVjNrds6H28baSHMcZBosG/2CF0g==",
+  "dgSpecHash": "A6+LcVOVR6PMgXF7tg+JS5ipJWAzT9AypJONBh9wCe7fs1lRpjrr9A6ybVwIhwaGYQE/n9uw3XzeNt5/tUEegQ==",
   "success": true,
-  "projectFilePath": "E:\\NCKH\\4_assignment\\project_Hieu\\end_version\\end_version.csproj",
+  "projectFilePath": "E:\\NCKH\\4_assignment\\project_Hieu\\MAIN\\end_version\\end_version.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
