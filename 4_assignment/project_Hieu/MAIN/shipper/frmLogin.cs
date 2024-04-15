@@ -16,7 +16,7 @@ namespace shipper_end
     public partial class frmLogin : Form
     {
         string phoneNum;
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
         SqlConnection conn = null;
        
         public frmLogin()
@@ -75,6 +75,11 @@ namespace shipper_end
                 MessageBox.Show(exp.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 conn.Close();
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

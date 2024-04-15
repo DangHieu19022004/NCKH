@@ -24,7 +24,7 @@ namespace shipper_end
         public string phonenum;
         public int idshipper;
 
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
         SqlConnection conn = null;
         DataTable dt;
         SqlDataAdapter da;
