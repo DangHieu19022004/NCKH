@@ -27,17 +27,17 @@ ADD CONSTRAINT PK_orders_table PRIMARY KEY (or);
 
 SELECT *
 FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS
-WHERE TABLE_NAME = 'assignment'
+WHERE TABLE_NAME = 'account'
 
 SELECT orders_table.order_id, total_shipping_cost, weight, distance, adress, customer_name, phone_number
 FROM assignment, orders_table 
 WHERE assignment.order_id = orders_table.order_id and shipper_id=1
 
-ALTER TABLE assignment
-ADD CONSTRAINT UC_order_id UNIQUE (order_id);
+ALTER TABLE dbo.account
+ADD UNIQUE (username);
 
 SELECT COLUMN_NAME, DATA_TYPE 
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE 
-    TABLE_NAME = 'orders_table' AND 
-    COLUMN_NAME = 'order_id';
+    TABLE_NAME = 'account' AND 
+    COLUMN_NAME = 'username';

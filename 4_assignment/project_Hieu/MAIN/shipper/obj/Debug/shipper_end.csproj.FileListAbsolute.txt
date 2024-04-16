@@ -94,4 +94,36 @@ E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\s
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.exe
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.pdb
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.Resources.FrmSignUp.resources
+<<<<<<< HEAD
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.frmInfo.resources
+=======
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\shipper_end.exe.config
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\shipper_end.exe
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\shipper_end.pdb
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\EntityFramework.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\EntityFramework.SqlServer.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\GMap.NET.Core.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\GMap.NET.WindowsForms.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\Newtonsoft.Json.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SqlClient.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SQLite.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SQLite.EF6.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SQLite.Linq.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Security.Principal.Windows.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\EntityFramework.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\EntityFramework.SqlServer.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\Newtonsoft.Json.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SqlClient.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Data.SQLite.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\bin\Debug\System.Security.Principal.Windows.xml
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.csproj.AssemblyReference.cache
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.FrmLogin.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.FrmMain.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.Properties.Resources.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.Resources.FrmSignUp.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.csproj.GenerateResource.cache
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.csproj.CoreCompileInputs.cache
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.csproj.CopyComplete
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.exe
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.pdb
+>>>>>>> d1951d3d4560ccef726485fa48c2b9f7ba1c2020

@@ -15,7 +15,7 @@ namespace shipper_end.Resources
 
     public partial class FrmSignUp : Form
     {
-        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         SqlConnection conn =null;
       
         public FrmSignUp()
