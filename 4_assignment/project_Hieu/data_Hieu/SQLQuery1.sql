@@ -34,7 +34,7 @@ FROM assignment, orders_table
 WHERE assignment.order_id = orders_table.order_id and shipper_id=1
 
 ALTER TABLE dbo.account
-ADD CONSTRAINT ACC_ID UNIQUE (username);
+ADD UNIQUE (username);
 
 SELECT COLUMN_NAME, DATA_TYPE 
 FROM INFORMATION_SCHEMA.COLUMNS 
