@@ -8,18 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using shipper_end.Resources;
 
 namespace shipper_end
 {
     
     
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
         string phoneNum;
         string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
         SqlConnection conn = null;
        
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -48,7 +49,7 @@ namespace shipper_end
                     {
                     phoneNum = dat.GetString(dat.GetOrdinal("username"));
                     this.Hide(); /*ẩn form hiện thời */
-                    frmMain frmMain = new frmMain(phoneNum);
+                    FrmMain frmMain = new FrmMain(phoneNum);
                     /*C# hay có kiểu khởi tạo đối tượng bởi câu lệnh new => c++: khai báo động*/
                     frmMain.ShowDialog();
                     /*Hiển thị ra form và phải thao tác với mình nó ,Show() thì dễ dãi hơn ,ko như vậy*/
@@ -62,7 +63,7 @@ namespace shipper_end
                 else
                 {
 
-                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Incorrect username or password", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     /*Thông báo , tiêu đề, nút có thể ấn ,icon hiển thị */
                 }
                 conn.Close();
@@ -80,6 +81,12 @@ namespace shipper_end
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmSignUp frmSignUp = new FrmSignUp();
+            frmSignUp.ShowDialog();
         }
     }
 }

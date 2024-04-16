@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ using GMap.NET.MapProviders;
 
 namespace shipper_end
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
         public string[] CoordinateStorage = "21.007527, 105.824441".Split(',');
         public List<PointLatLng> start = new List<PointLatLng>();
@@ -29,7 +30,7 @@ namespace shipper_end
         DataTable dt;
         SqlDataAdapter da;
         int vitrichon = -1;
-        public frmMain(string phoneNum)
+        public FrmMain(string phoneNum)
         {
             InitializeComponent();
             phonenum = phoneNum;
@@ -234,15 +235,22 @@ namespace shipper_end
 
         private void button1_Click(object sender, EventArgs e)
         {
-            conn = new SqlConnection(StrCon);
-            conn.Open();
-            string id = dt.Rows[vitrichon][0].ToString();
-            string status = "Đã giao";
-            string sql = "update orders_table set Status='" + status + "' where order_id ='" + id + "' ";
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.ExecuteNonQuery();
-            dt.Rows.Clear();
-            da.Fill(dt);
+            DialogResult result = MessageBox.Show("Are you sure you have returned the item to the customer?", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // Kiểm tra kết quả từ MessageBox
+            if (result == DialogResult.Yes)
+            {
+                conn = new SqlConnection(StrCon);
+                conn.Open();
+                string id = dt.Rows[vitrichon][0].ToString();
+                string status = "Đã giao";
+                string sql = "update orders_table set Status='" + status + "' where order_id ='" + id + "' ";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                dt.Rows.Clear();
+                da.Fill(dt);
+            }
+     
 
         }
     }
