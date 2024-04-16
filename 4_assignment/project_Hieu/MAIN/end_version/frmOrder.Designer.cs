@@ -61,7 +61,7 @@
             // 
             // btnSplitOrders
             // 
-            btnSplitOrders.BackColor = Color.FromArgb(255, 224, 192);
+            btnSplitOrders.BackColor = Color.FromArgb(224, 224, 224);
             btnSplitOrders.Dock = DockStyle.Bottom;
             btnSplitOrders.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSplitOrders.ForeColor = SystemColors.HotTrack;

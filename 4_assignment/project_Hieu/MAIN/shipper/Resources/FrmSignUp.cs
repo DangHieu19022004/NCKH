@@ -17,8 +17,7 @@ namespace shipper_end.Resources
     {
         string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
         SqlConnection conn =null;
-        SqlDataAdapter daShip;
-        DataTable dtShip;
+      
         public FrmSignUp()
         {
             InitializeComponent();
@@ -46,12 +45,9 @@ namespace shipper_end.Resources
             }
             else
             {
-                string sql = "insert into account values('" + phone + "','" + pass + "','"+role+"')";
-                SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Congratulations! You have successfully created an account.", "Succes", MessageBoxButtons.OK);
                 this.Hide();
-
+                frmInfo frmI = new frmInfo(phone,pass,role);
+                frmI.ShowDialog();
             }
         }
 

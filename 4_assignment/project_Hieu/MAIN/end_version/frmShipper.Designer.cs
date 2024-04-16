@@ -174,7 +174,7 @@
             // btnRemove
             // 
             btnRemove.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            btnRemove.BackColor = Color.FromArgb(255, 224, 192);
+            btnRemove.BackColor = Color.FromArgb(224, 224, 224);
             btnRemove.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRemove.ForeColor = SystemColors.HotTrack;
             btnRemove.Location = new Point(145, 122);

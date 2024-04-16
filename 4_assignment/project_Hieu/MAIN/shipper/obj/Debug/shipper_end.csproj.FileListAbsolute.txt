@@ -94,3 +94,4 @@ E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\s
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.exe
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.pdb
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.Resources.FrmSignUp.resources
+E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.frmInfo.resources
