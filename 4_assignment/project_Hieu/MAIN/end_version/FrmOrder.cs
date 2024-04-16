@@ -17,7 +17,7 @@ namespace end_version
         {
             InitializeComponent();
         }
-        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True;Trust Server Certificate=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         SqlConnection con = null;
         SqlDataAdapter daOrders, daShip, daAss;
         DataTable dtOrders, dtShip, dtAss;

@@ -20,7 +20,7 @@ namespace end_version
 
         }
 
-        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True;Trust Server Certificate=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         SqlConnection conn = null;
         SqlDataAdapter daShip;
         DataTable dtShip;
@@ -73,9 +73,6 @@ namespace end_version
                 txtLicense.Text = dtShip.Rows[vitrichon][3].ToString();
                 txtHomeTown.Text = dtShip.Rows[vitrichon][4].ToString();
                 txtArea.Text = dtShip.Rows[vitrichon][5].ToString();
-               
-
-
             }
         }
 
@@ -86,7 +83,7 @@ namespace end_version
             // Kiểm tra kết quả từ MessageBox
             if (result == DialogResult.Yes)
             {
-                int id = Convert.ToInt32(dtShip.Rows[vitrichon][5].ToString());
+                int id = Convert.ToInt32(dtShip.Rows[vitrichon][0].ToString());
                 string sql = "delete from shipper_table where shipper_id = '" + id + "'";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();

@@ -427,3 +427,8 @@ E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Rel
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.pdb
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.genruntimeconfig.cache
 E:\LapTrinhWindowns\nckh\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\ref\end_version.dll
+E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.frmAbout.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.frmMain.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.ord.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.frmSetting.resources
+E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Release\net8.0-windows\end_version.FrmShipper.resources

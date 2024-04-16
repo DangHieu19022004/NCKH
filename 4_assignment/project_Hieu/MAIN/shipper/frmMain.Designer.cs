@@ -57,13 +57,14 @@
             this.dgvOrder.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrder.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvOrder.Location = new System.Drawing.Point(0, 129);
+            this.dgvOrder.Location = new System.Drawing.Point(0, 159);
+            this.dgvOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvOrder.MultiSelect = false;
             this.dgvOrder.Name = "dgvOrder";
             this.dgvOrder.ReadOnly = true;
             this.dgvOrder.RowHeadersWidth = 51;
             this.dgvOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvOrder.Size = new System.Drawing.Size(800, 173);
+            this.dgvOrder.Size = new System.Drawing.Size(1067, 213);
             this.dgvOrder.TabIndex = 25;
             this.dgvOrder.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvOrder_CellClick);
             // 
@@ -71,18 +72,20 @@
             // 
             this.lbShow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbShow.Location = new System.Drawing.Point(0, 24);
+            this.lbShow.Location = new System.Drawing.Point(0, 29);
+            this.lbShow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbShow.Name = "lbShow";
-            this.lbShow.Size = new System.Drawing.Size(800, 102);
+            this.lbShow.Size = new System.Drawing.Size(1067, 126);
             this.lbShow.TabIndex = 4;
             this.lbShow.Text = "a -> b -> d";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 58);
+            this.label5.Location = new System.Drawing.Point(29, 71);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 13);
+            this.label5.Size = new System.Drawing.Size(94, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Phone number";
             // 
@@ -93,9 +96,10 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(451, 86);
+            this.button1.Location = new System.Drawing.Point(601, 106);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 28);
+            this.button1.Size = new System.Drawing.Size(300, 34);
             this.button1.TabIndex = 10;
             this.button1.Text = "Trả hàng";
             this.button1.UseVisualStyleBackColor = false;
@@ -105,36 +109,40 @@
             // 
             this.txbW.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txbW.Location = new System.Drawing.Point(451, 53);
+            this.txbW.Location = new System.Drawing.Point(601, 65);
+            this.txbW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbW.Name = "txbW";
             this.txbW.ReadOnly = true;
-            this.txbW.Size = new System.Drawing.Size(226, 20);
+            this.txbW.Size = new System.Drawing.Size(300, 22);
             this.txbW.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 18);
+            this.label1.Location = new System.Drawing.Point(29, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Name";
             // 
             // txbWeight
             // 
             this.txbWeight.AutoSize = true;
-            this.txbWeight.Location = new System.Drawing.Point(374, 60);
+            this.txbWeight.Location = new System.Drawing.Point(499, 74);
+            this.txbWeight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txbWeight.Name = "txbWeight";
-            this.txbWeight.Size = new System.Drawing.Size(53, 13);
+            this.txbWeight.Size = new System.Drawing.Size(64, 16);
             this.txbWeight.TabIndex = 15;
             this.txbWeight.Text = "Cân nặng";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(22, 96);
+            this.label6.Location = new System.Drawing.Point(29, 118);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.Size = new System.Drawing.Size(50, 16);
             this.label6.TabIndex = 5;
             this.label6.Text = "Adress";
             // 
@@ -143,9 +151,10 @@
             this.panel6.Controls.Add(this.lbShow);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 302);
+            this.panel6.Location = new System.Drawing.Point(0, 372);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(800, 126);
+            this.panel6.Size = new System.Drawing.Size(1067, 155);
             this.panel6.TabIndex = 24;
             // 
             // label2
@@ -154,8 +163,9 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 24);
+            this.label2.Size = new System.Drawing.Size(163, 29);
             this.label2.TabIndex = 3;
             this.label2.Text = "Lộ trình gợi ý";
             // 
@@ -163,35 +173,39 @@
             // 
             this.txbShipCost.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txbShipCost.Location = new System.Drawing.Point(451, 18);
+            this.txbShipCost.Location = new System.Drawing.Point(601, 22);
+            this.txbShipCost.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbShipCost.Name = "txbShipCost";
             this.txbShipCost.ReadOnly = true;
-            this.txbShipCost.Size = new System.Drawing.Size(226, 20);
+            this.txbShipCost.Size = new System.Drawing.Size(300, 22);
             this.txbShipCost.TabIndex = 14;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(374, 23);
+            this.label4.Location = new System.Drawing.Point(499, 28);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.Size = new System.Drawing.Size(62, 16);
             this.label4.TabIndex = 13;
             this.label4.Text = "Tiền ship";
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(112, 53);
+            this.txtPhone.Location = new System.Drawing.Point(149, 65);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.ReadOnly = true;
-            this.txtPhone.Size = new System.Drawing.Size(226, 20);
+            this.txtPhone.Size = new System.Drawing.Size(300, 22);
             this.txtPhone.TabIndex = 7;
             // 
             // txtAdre
             // 
-            this.txtAdre.Location = new System.Drawing.Point(112, 91);
+            this.txtAdre.Location = new System.Drawing.Point(149, 112);
+            this.txtAdre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAdre.Name = "txtAdre";
             this.txtAdre.ReadOnly = true;
-            this.txtAdre.Size = new System.Drawing.Size(226, 20);
+            this.txtAdre.Size = new System.Drawing.Size(300, 22);
             this.txtAdre.TabIndex = 8;
             // 
             // panel2
@@ -209,37 +223,40 @@
             this.panel2.Controls.Add(this.txtAdre);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 129);
+            this.panel2.Size = new System.Drawing.Size(1067, 159);
             this.panel2.TabIndex = 23;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(112, 18);
+            this.txtName.Location = new System.Drawing.Point(149, 22);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
             this.txtName.ReadOnly = true;
-            this.txtName.Size = new System.Drawing.Size(226, 20);
+            this.txtName.Size = new System.Drawing.Size(300, 22);
             this.txtName.TabIndex = 6;
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 428);
+            this.panel1.Location = new System.Drawing.Point(0, 527);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 22);
+            this.panel1.Size = new System.Drawing.Size(1067, 27);
             this.panel1.TabIndex = 22;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dgvOrder);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMain";
             this.Text = "frmMain";
             this.Load += new System.EventHandler(this.frmMain_Load);
