@@ -58,13 +58,13 @@
             this.dgvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvOrder.Location = new System.Drawing.Point(0, 159);
-            this.dgvOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvOrder.Margin = new System.Windows.Forms.Padding(4);
             this.dgvOrder.MultiSelect = false;
             this.dgvOrder.Name = "dgvOrder";
             this.dgvOrder.ReadOnly = true;
             this.dgvOrder.RowHeadersWidth = 51;
             this.dgvOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvOrder.Size = new System.Drawing.Size(1067, 213);
+            this.dgvOrder.Size = new System.Drawing.Size(800, 109);
             this.dgvOrder.TabIndex = 25;
             this.dgvOrder.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvOrder_CellClick);
             // 
@@ -75,7 +75,7 @@
             this.lbShow.Location = new System.Drawing.Point(0, 29);
             this.lbShow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbShow.Name = "lbShow";
-            this.lbShow.Size = new System.Drawing.Size(1067, 126);
+            this.lbShow.Size = new System.Drawing.Size(800, 126);
             this.lbShow.TabIndex = 4;
             this.lbShow.Text = "a -> b -> d";
             // 
@@ -97,9 +97,9 @@
             this.button1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(601, 106);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(300, 34);
+            this.button1.Size = new System.Drawing.Size(33, 34);
             this.button1.TabIndex = 10;
             this.button1.Text = "Trả hàng";
             this.button1.UseVisualStyleBackColor = false;
@@ -110,10 +110,10 @@
             this.txbW.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txbW.Location = new System.Drawing.Point(601, 65);
-            this.txbW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbW.Margin = new System.Windows.Forms.Padding(4);
             this.txbW.Name = "txbW";
             this.txbW.ReadOnly = true;
-            this.txbW.Size = new System.Drawing.Size(300, 22);
+            this.txbW.Size = new System.Drawing.Size(33, 22);
             this.txbW.TabIndex = 16;
             // 
             // label1
@@ -151,10 +151,10 @@
             this.panel6.Controls.Add(this.lbShow);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 372);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Location = new System.Drawing.Point(0, 268);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1067, 155);
+            this.panel6.Size = new System.Drawing.Size(800, 155);
             this.panel6.TabIndex = 24;
             // 
             // label2
@@ -174,10 +174,10 @@
             this.txbShipCost.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txbShipCost.Location = new System.Drawing.Point(601, 22);
-            this.txbShipCost.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbShipCost.Margin = new System.Windows.Forms.Padding(4);
             this.txbShipCost.Name = "txbShipCost";
             this.txbShipCost.ReadOnly = true;
-            this.txbShipCost.Size = new System.Drawing.Size(300, 22);
+            this.txbShipCost.Size = new System.Drawing.Size(33, 22);
             this.txbShipCost.TabIndex = 14;
             // 
             // label4
@@ -193,7 +193,7 @@
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(149, 65);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.ReadOnly = true;
             this.txtPhone.Size = new System.Drawing.Size(300, 22);
@@ -202,7 +202,7 @@
             // txtAdre
             // 
             this.txtAdre.Location = new System.Drawing.Point(149, 112);
-            this.txtAdre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAdre.Margin = new System.Windows.Forms.Padding(4);
             this.txtAdre.Name = "txtAdre";
             this.txtAdre.ReadOnly = true;
             this.txtAdre.Size = new System.Drawing.Size(300, 22);
@@ -225,13 +225,13 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1067, 159);
+            this.panel2.Size = new System.Drawing.Size(800, 159);
             this.panel2.TabIndex = 23;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(149, 22);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.ReadOnly = true;
             this.txtName.Size = new System.Drawing.Size(300, 22);
@@ -240,28 +240,23 @@
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 527);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 423);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 27);
+            this.panel1.Size = new System.Drawing.Size(800, 27);
             this.panel1.TabIndex = 22;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-=======
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
->>>>>>> d1951d3d4560ccef726485fa48c2b9f7ba1c2020
             this.Controls.Add(this.dgvOrder);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMain";
             this.Text = "frmMain";
             this.Load += new System.EventHandler(this.frmMain_Load);

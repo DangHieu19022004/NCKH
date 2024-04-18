@@ -1,4 +1,5 @@
-﻿using System;
+﻿using shipper_end.Resources;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +18,7 @@ namespace shipper_end
         {
             InitializeComponent();
         }
-        string StrCon = @"Data Source=(local);Initial Catalog=shipper_Hieu;Integrated Security=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         SqlConnection conn = null;
         string phone;
         string pass;
@@ -50,17 +51,30 @@ namespace shipper_end
             }
             else
             {
-                string sql1 = "insert into account values('" + phone + "','" + pass + "','" + role + "')";
-                SqlCommand cmd1 = new SqlCommand(sql1, conn);
-                cmd1.ExecuteNonQuery();
-                string sql2 = "insert into shipper_table values(N'" +name  + "',N'" + home + "','" + phone + "',N'" + area + "',N'"+license+"')";
-                SqlCommand cmd2 = new SqlCommand(sql2, conn);
-                cmd2.ExecuteNonQuery();
-                MessageBox.Show("Congratulations, you have successfully created an account.", "Succes", MessageBoxButtons.OK);
+                try
+                {
+                    string sql1 = "insert into account values('" + phone + "','" + pass + "','" + role + "')";
+                    SqlCommand cmd1 = new SqlCommand(sql1, conn);
+                    cmd1.ExecuteNonQuery();
+                    string sql2 = "insert into shipper_table values(N'" + name + "',N'" + home + "','" + phone + "',N'" + area + "',N'" + license + "')";
+                    SqlCommand cmd2 = new SqlCommand(sql2, conn);
+                    cmd2.ExecuteNonQuery();
+                    MessageBox.Show("Congratulations, you have successfully created an account.", "Succes", MessageBoxButtons.OK);
 
-                this.Hide();
+                    this.Hide();
+                }
+                catch
+                {
+                    MessageBox.Show("...........", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
                 
             }
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
     

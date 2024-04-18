@@ -65,10 +65,9 @@
             btnSplitOrders.Dock = DockStyle.Bottom;
             btnSplitOrders.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSplitOrders.ForeColor = SystemColors.HotTrack;
-            btnSplitOrders.Location = new Point(0, 508);
-            btnSplitOrders.Margin = new Padding(3, 2, 3, 2);
+            btnSplitOrders.Location = new Point(0, 677);
             btnSplitOrders.Name = "btnSplitOrders";
-            btnSplitOrders.Size = new Size(731, 47);
+            btnSplitOrders.Size = new Size(835, 63);
             btnSplitOrders.TabIndex = 5;
             btnSplitOrders.Text = "Split orders";
             btnSplitOrders.UseVisualStyleBackColor = false;
@@ -83,15 +82,15 @@
             dgvOrrders.Dock = DockStyle.Fill;
             dgvOrrders.GridColor = SystemColors.MenuBar;
             dgvOrrders.Location = new Point(0, 0);
-            dgvOrrders.Margin = new Padding(3, 2, 3, 2);
             dgvOrrders.MultiSelect = false;
             dgvOrrders.Name = "dgvOrrders";
             dgvOrrders.ReadOnly = true;
             dgvOrrders.RowHeadersWidth = 51;
             dgvOrrders.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvOrrders.Size = new Size(455, 508);
+            dgvOrrders.Size = new Size(520, 677);
             dgvOrrders.TabIndex = 7;
             dgvOrrders.CellClick += dataGridView1_CellClick;
+            dgvOrrders.CellContentClick += dgvOrrders_CellContentClick;
             // 
             // groupBox2
             // 
@@ -99,8 +98,10 @@
             groupBox2.Controls.Add(groupBox3);
             groupBox2.Controls.Add(groupBox1);
             groupBox2.Location = new Point(0, 0);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(276, 508);
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(315, 677);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Details";
@@ -114,9 +115,11 @@
             groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(txtStatus);
             groupBox3.Controls.Add(label4);
-            groupBox3.Location = new Point(3, 217);
+            groupBox3.Location = new Point(3, 289);
+            groupBox3.Margin = new Padding(3, 4, 3, 4);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(270, 257);
+            groupBox3.Padding = new Padding(3, 4, 3, 4);
+            groupBox3.Size = new Size(309, 343);
             groupBox3.TabIndex = 1;
             groupBox3.TabStop = false;
             groupBox3.Text = "Shipping information";
@@ -125,18 +128,19 @@
             // 
             txtSumCost.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtSumCost.Enabled = false;
-            txtSumCost.Location = new Point(137, 206);
+            txtSumCost.Location = new Point(157, 275);
+            txtSumCost.Margin = new Padding(3, 4, 3, 4);
             txtSumCost.Name = "txtSumCost";
-            txtSumCost.Size = new Size(124, 23);
+            txtSumCost.Size = new Size(141, 27);
             txtSumCost.TabIndex = 6;
             // 
             // label7
             // 
             label7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label7.AutoSize = true;
-            label7.Location = new Point(19, 209);
+            label7.Location = new Point(22, 279);
             label7.Name = "label7";
-            label7.Size = new Size(112, 15);
+            label7.Size = new Size(141, 20);
             label7.TabIndex = 5;
             label7.Text = "Total shipping cost :";
             // 
@@ -149,9 +153,11 @@
             groupBox4.Controls.Add(label5);
             groupBox4.Controls.Add(txtNameShip);
             groupBox4.Controls.Add(label6);
-            groupBox4.Location = new Point(6, 22);
+            groupBox4.Location = new Point(7, 29);
+            groupBox4.Margin = new Padding(3, 4, 3, 4);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(264, 142);
+            groupBox4.Padding = new Padding(3, 4, 3, 4);
+            groupBox4.Size = new Size(302, 189);
             groupBox4.TabIndex = 4;
             groupBox4.TabStop = false;
             groupBox4.Text = "Shipper";
@@ -160,18 +166,19 @@
             // 
             txtLicense.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtLicense.Enabled = false;
-            txtLicense.Location = new Point(123, 93);
+            txtLicense.Location = new Point(141, 124);
+            txtLicense.Margin = new Padding(3, 4, 3, 4);
             txtLicense.Name = "txtLicense";
-            txtLicense.Size = new Size(135, 23);
+            txtLicense.Size = new Size(154, 27);
             txtLicense.TabIndex = 11;
             // 
             // label8
             // 
             label8.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label8.AutoSize = true;
-            label8.Location = new Point(13, 101);
+            label8.Location = new Point(15, 135);
             label8.Name = "label8";
-            label8.Size = new Size(86, 15);
+            label8.Size = new Size(108, 20);
             label8.TabIndex = 10;
             label8.Text = "License plates :";
             // 
@@ -179,18 +186,19 @@
             // 
             txtPhoneShip.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtPhoneShip.Enabled = false;
-            txtPhoneShip.Location = new Point(123, 57);
+            txtPhoneShip.Location = new Point(141, 76);
+            txtPhoneShip.Margin = new Padding(3, 4, 3, 4);
             txtPhoneShip.Name = "txtPhoneShip";
-            txtPhoneShip.Size = new Size(135, 23);
+            txtPhoneShip.Size = new Size(154, 27);
             txtPhoneShip.TabIndex = 7;
             // 
             // label5
             // 
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
-            label5.Location = new Point(13, 65);
+            label5.Location = new Point(15, 87);
             label5.Name = "label5";
-            label5.Size = new Size(92, 15);
+            label5.Size = new Size(112, 20);
             label5.TabIndex = 6;
             label5.Text = "Phone number :";
             // 
@@ -198,18 +206,19 @@
             // 
             txtNameShip.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtNameShip.Enabled = false;
-            txtNameShip.Location = new Point(123, 25);
+            txtNameShip.Location = new Point(141, 33);
+            txtNameShip.Margin = new Padding(3, 4, 3, 4);
             txtNameShip.Name = "txtNameShip";
-            txtNameShip.Size = new Size(135, 23);
+            txtNameShip.Size = new Size(154, 27);
             txtNameShip.TabIndex = 5;
             // 
             // label6
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label6.AutoSize = true;
-            label6.Location = new Point(13, 33);
+            label6.Location = new Point(15, 44);
             label6.Name = "label6";
-            label6.Size = new Size(45, 15);
+            label6.Size = new Size(56, 20);
             label6.TabIndex = 4;
             label6.Text = "Name :";
             // 
@@ -217,18 +226,19 @@
             // 
             txtStatus.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtStatus.Enabled = false;
-            txtStatus.Location = new Point(137, 177);
+            txtStatus.Location = new Point(157, 236);
+            txtStatus.Margin = new Padding(3, 4, 3, 4);
             txtStatus.Name = "txtStatus";
-            txtStatus.Size = new Size(124, 23);
+            txtStatus.Size = new Size(141, 27);
             txtStatus.TabIndex = 3;
             // 
             // label4
             // 
             label4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label4.AutoSize = true;
-            label4.Location = new Point(19, 180);
+            label4.Location = new Point(22, 240);
             label4.Name = "label4";
-            label4.Size = new Size(45, 15);
+            label4.Size = new Size(56, 20);
             label4.TabIndex = 2;
             label4.Text = "Status :";
             // 
@@ -241,9 +251,11 @@
             groupBox1.Controls.Add(txtNameCus);
             groupBox1.Controls.Add(label1);
             groupBox1.Dock = DockStyle.Top;
-            groupBox1.Location = new Point(3, 19);
+            groupBox1.Location = new Point(3, 24);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(270, 198);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(309, 264);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Customer";
@@ -252,19 +264,20 @@
             // 
             txtAdressCus.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtAdressCus.Enabled = false;
-            txtAdressCus.Location = new Point(70, 95);
+            txtAdressCus.Location = new Point(80, 127);
+            txtAdressCus.Margin = new Padding(3, 4, 3, 4);
             txtAdressCus.Multiline = true;
             txtAdressCus.Name = "txtAdressCus";
-            txtAdressCus.Size = new Size(191, 81);
+            txtAdressCus.Size = new Size(218, 107);
             txtAdressCus.TabIndex = 5;
             // 
             // label3
             // 
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
-            label3.Location = new Point(16, 98);
+            label3.Location = new Point(18, 131);
             label3.Name = "label3";
-            label3.Size = new Size(48, 15);
+            label3.Size = new Size(60, 20);
             label3.TabIndex = 4;
             label3.Text = "Adress :";
             // 
@@ -272,18 +285,19 @@
             // 
             txtPhoneCus.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtPhoneCus.Enabled = false;
-            txtPhoneCus.Location = new Point(126, 59);
+            txtPhoneCus.Location = new Point(144, 79);
+            txtPhoneCus.Margin = new Padding(3, 4, 3, 4);
             txtPhoneCus.Name = "txtPhoneCus";
-            txtPhoneCus.Size = new Size(135, 23);
+            txtPhoneCus.Size = new Size(154, 27);
             txtPhoneCus.TabIndex = 3;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
-            label2.Location = new Point(16, 62);
+            label2.Location = new Point(18, 83);
             label2.Name = "label2";
-            label2.Size = new Size(92, 15);
+            label2.Size = new Size(112, 20);
             label2.TabIndex = 2;
             label2.Text = "Phone number :";
             // 
@@ -291,18 +305,19 @@
             // 
             txtNameCus.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtNameCus.Enabled = false;
-            txtNameCus.Location = new Point(126, 18);
+            txtNameCus.Location = new Point(144, 24);
+            txtNameCus.Margin = new Padding(3, 4, 3, 4);
             txtNameCus.Name = "txtNameCus";
-            txtNameCus.Size = new Size(135, 23);
+            txtNameCus.Size = new Size(154, 27);
             txtNameCus.TabIndex = 1;
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(16, 26);
+            label1.Location = new Point(18, 35);
             label1.Name = "label1";
-            label1.Size = new Size(45, 15);
+            label1.Size = new Size(56, 20);
             label1.TabIndex = 0;
             label1.Text = "Name :";
             // 
@@ -310,22 +325,22 @@
             // 
             panel1.Controls.Add(groupBox2);
             panel1.Dock = DockStyle.Right;
-            panel1.Location = new Point(455, 0);
+            panel1.Location = new Point(520, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(276, 508);
+            panel1.Size = new Size(315, 677);
             panel1.TabIndex = 6;
             // 
             // ord
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 255);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(731, 555);
+            ClientSize = new Size(835, 740);
             Controls.Add(dgvOrrders);
             Controls.Add(panel1);
             Controls.Add(btnSplitOrders);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ord";
             SizeGripStyle = SizeGripStyle.Show;
             Text = "Orders";

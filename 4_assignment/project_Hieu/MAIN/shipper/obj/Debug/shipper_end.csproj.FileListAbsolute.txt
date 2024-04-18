@@ -127,3 +127,4 @@ E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.csproj.Copy
 E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.exe
 E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.pdb
 >>>>>>> d1951d3d4560ccef726485fa48c2b9f7ba1c2020
+E:\NCKH\4_assignment\project_Hieu\MAIN\shipper\obj\Debug\shipper_end.frmInfo.resources
