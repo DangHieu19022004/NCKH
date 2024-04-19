@@ -20,7 +20,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Update="ResourcesShipper\FrmSignUp.cs">
+    <Compile Update="FrmSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

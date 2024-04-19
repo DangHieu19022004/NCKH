@@ -18,7 +18,7 @@ namespace shipper_end
         {
             InitializeComponent();
         }
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=DataNew19-4_Hieu;Integrated Security=True";
         SqlConnection conn = null;
         string phone;
         string pass;
@@ -62,10 +62,14 @@ namespace shipper_end
                     MessageBox.Show("Congratulations, you have successfully created an account.", "Succes", MessageBoxButtons.OK);
 
                     this.Hide();
+                
                 }
                 catch
                 {
-                    MessageBox.Show("...........", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("The account already exists in the system.", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    this.Hide();
+                    FrmSignUp signUp = new FrmSignUp(phone, pass);
+                    signUp.ShowDialog();
                 }
 
                 
@@ -75,7 +79,7 @@ namespace shipper_end
         private void btnReturn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmSignUp signUp = new FrmSignUp();
+            FrmSignUp signUp = new FrmSignUp(phone,pass);
             signUp.ShowDialog();
         }
     }

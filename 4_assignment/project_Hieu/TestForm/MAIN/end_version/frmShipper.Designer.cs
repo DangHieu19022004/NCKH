@@ -71,7 +71,7 @@
             splitContainer1.Panel2.Controls.Add(HomeTown);
             splitContainer1.Panel2.Controls.Add(btnRemove);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(847, 172);
+            splitContainer1.Size = new Size(847, 179);
             splitContainer1.SplitterDistance = 399;
             splitContainer1.TabIndex = 1;
             // 
@@ -79,7 +79,7 @@
             // 
             txtLicense.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtLicense.Enabled = false;
-            txtLicense.Location = new Point(130, 137);
+            txtLicense.Location = new Point(130, 136);
             txtLicense.Name = "txtLicense";
             txtLicense.Size = new Size(230, 23);
             txtLicense.TabIndex = 9;
@@ -88,7 +88,8 @@
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label6.AutoSize = true;
-            label6.Location = new Point(25, 145);
+            label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            label6.Location = new Point(25, 144);
             label6.Name = "label6";
             label6.Size = new Size(86, 15);
             label6.TabIndex = 8;
@@ -108,6 +109,7 @@
             // 
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label3.Location = new Point(25, 87);
             label3.Name = "label3";
             label3.Size = new Size(92, 15);
@@ -127,6 +129,7 @@
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label1.Location = new Point(25, 29);
             label1.Name = "label1";
             label1.Size = new Size(45, 15);
@@ -146,6 +149,7 @@
             // 
             label7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label7.Location = new Point(40, 87);
             label7.Name = "label7";
             label7.Size = new Size(37, 15);
@@ -165,6 +169,7 @@
             // 
             HomeTown.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             HomeTown.AutoSize = true;
+            HomeTown.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             HomeTown.Location = new Point(40, 29);
             HomeTown.Name = "HomeTown";
             HomeTown.Size = new Size(76, 15);
@@ -192,12 +197,12 @@
             dgvInfo.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvInfo.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvInfo.Dock = DockStyle.Fill;
-            dgvInfo.Location = new Point(0, 172);
+            dgvInfo.Location = new Point(0, 179);
             dgvInfo.MultiSelect = false;
             dgvInfo.Name = "dgvInfo";
             dgvInfo.ReadOnly = true;
             dgvInfo.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvInfo.Size = new Size(847, 221);
+            dgvInfo.Size = new Size(847, 214);
             dgvInfo.TabIndex = 2;
             dgvInfo.CellClick += dgvInfo_CellClick;
             // 

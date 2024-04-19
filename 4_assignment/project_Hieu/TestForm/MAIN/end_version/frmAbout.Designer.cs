@@ -42,10 +42,10 @@
             // panel2
             // 
             panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(815, 0);
+            panel2.Location = new Point(831, 0);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(79, 368);
+            panel2.Size = new Size(79, 457);
             panel2.TabIndex = 4;
             // 
             // panel1
@@ -54,7 +54,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(74, 368);
+            panel1.Size = new Size(74, 457);
             panel1.TabIndex = 3;
             // 
             // panel3
@@ -68,7 +68,7 @@
             panel3.Location = new Point(0, 0);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(894, 368);
+            panel3.Size = new Size(910, 457);
             panel3.TabIndex = 5;
             // 
             // label18
@@ -76,7 +76,7 @@
             label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label18.AutoSize = true;
             label18.Font = new Font("Arial", 13.8F, FontStyle.Bold);
-            label18.Location = new Point(73, 54);
+            label18.Location = new Point(73, 43);
             label18.Margin = new Padding(26, 22, 3, 0);
             label18.Name = "label18";
             label18.Padding = new Padding(9, 8, 9, 8);
@@ -89,7 +89,7 @@
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label17.AutoSize = true;
             label17.Font = new Font("Arial", 13.8F, FontStyle.Bold);
-            label17.Location = new Point(73, 91);
+            label17.Location = new Point(73, 118);
             label17.Margin = new Padding(26, 22, 3, 0);
             label17.Name = "label17";
             label17.Padding = new Padding(9, 8, 9, 8);
@@ -102,7 +102,7 @@
             label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label14.AutoSize = true;
             label14.Font = new Font("Arial", 13.8F, FontStyle.Bold);
-            label14.Location = new Point(73, 218);
+            label14.Location = new Point(73, 343);
             label14.Margin = new Padding(26, 22, 3, 0);
             label14.Name = "label14";
             label14.Padding = new Padding(9, 8, 9, 8);
@@ -115,7 +115,7 @@
             label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label16.AutoSize = true;
             label16.Font = new Font("Arial", 13.8F, FontStyle.Bold);
-            label16.Location = new Point(73, 131);
+            label16.Location = new Point(73, 193);
             label16.Margin = new Padding(26, 22, 3, 0);
             label16.Name = "label16";
             label16.Padding = new Padding(9, 8, 9, 8);
@@ -128,7 +128,7 @@
             label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label15.AutoSize = true;
             label15.Font = new Font("Arial", 13.8F, FontStyle.Bold);
-            label15.Location = new Point(73, 175);
+            label15.Location = new Point(73, 268);
             label15.Margin = new Padding(26, 22, 3, 0);
             label15.Name = "label15";
             label15.Padding = new Padding(9, 8, 9, 8);
@@ -141,7 +141,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 255);
-            ClientSize = new Size(894, 368);
+            ClientSize = new Size(910, 457);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(panel3);

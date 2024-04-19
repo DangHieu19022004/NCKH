@@ -138,3 +138,6 @@ E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\refi
 E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\end_version.pdb
 E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\end_version.genruntimeconfig.cache
 E:\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\ref\end_version.dll
+E:\LapTrinhWindowns\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\end_version.dll
+E:\LapTrinhWindowns\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\refint\end_version.dll
+E:\LapTrinhWindowns\NCKH\4_assignment\project_Hieu\MAIN\end_version\obj\Debug\net8.0-windows\end_version.pdb

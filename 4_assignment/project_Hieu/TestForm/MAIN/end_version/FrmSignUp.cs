@@ -15,13 +15,23 @@ namespace shipper_end.Resources
 
     public partial class FrmSignUp : Form
     {
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=DataNew19-4_Hieu;Integrated Security=True";
         SqlConnection conn =null;
-      
+        string phone;
+        string pass;
+        string confirm;
         public FrmSignUp()
         {
             InitializeComponent();
         }
+        public FrmSignUp(string phoneRe ,string passRe)
+        {
+            InitializeComponent();
+            this.phone = phoneRe;
+            this.pass = passRe;
+            this.confirm=passRe;
+        }
+
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -30,9 +40,9 @@ namespace shipper_end.Resources
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string phone = txtUser.Text;
-            string pass= txtPass.Text;
-            string confirm = txtConfirm.Text;
+            phone = txtUser.Text;
+            pass= txtPass.Text;
+            confirm = txtConfirm.Text;
             int role = 1;
             if (phone == "" || pass == "")
             {
@@ -55,6 +65,9 @@ namespace shipper_end.Resources
         {
             conn = new SqlConnection(StrCon);
             conn.Open();
+            txtConfirm.Text = confirm;
+            txtPass.Text=pass;
+            txtUser.Text = phone;
         }
     }
 }

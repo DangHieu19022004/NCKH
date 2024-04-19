@@ -46,10 +46,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(139, 32);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Image = end_version.Properties.Resources.Users;
+            pictureBox1.Location = new Point(122, 24);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(231, 159);
+            pictureBox1.Size = new Size(202, 119);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -65,10 +66,10 @@
             panel1.Controls.Add(txtUser);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(-6, 1);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(-5, 1);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(507, 515);
+            panel1.Size = new Size(444, 386);
             panel1.TabIndex = 6;
             // 
             // button1
@@ -76,10 +77,10 @@
             button1.BackColor = Color.FromArgb(255, 224, 192);
             button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.Blue;
-            button1.Location = new Point(139, 438);
-            button1.Margin = new Padding(4, 5, 4, 5);
+            button1.Location = new Point(122, 328);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(231, 59);
+            button1.Size = new Size(202, 44);
             button1.TabIndex = 7;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
@@ -89,10 +90,10 @@
             // 
             linkLabel2.AutoSize = true;
             linkLabel2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel2.Location = new Point(369, 379);
+            linkLabel2.Location = new Point(323, 284);
             linkLabel2.Margin = new Padding(4, 0, 4, 0);
             linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(79, 25);
+            linkLabel2.Size = new Size(63, 20);
             linkLabel2.TabIndex = 6;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Sign up";
@@ -102,10 +103,10 @@
             // 
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.Location = new Point(36, 379);
+            linkLabel1.Location = new Point(32, 284);
             linkLabel1.Margin = new Padding(4, 0, 4, 0);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(157, 25);
+            linkLabel1.Size = new Size(128, 20);
             linkLabel1.TabIndex = 5;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Forgot password";
@@ -113,19 +114,20 @@
             // txtPas
             // 
             txtPas.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPas.Location = new Point(139, 291);
-            txtPas.Margin = new Padding(4, 5, 4, 5);
+            txtPas.Location = new Point(122, 218);
+            txtPas.Margin = new Padding(4);
             txtPas.Name = "txtPas";
             txtPas.PasswordChar = '*';
-            txtPas.Size = new Size(313, 30);
+            txtPas.Size = new Size(274, 26);
             txtPas.TabIndex = 4;
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(41, 285);
-            pictureBox3.Margin = new Padding(4, 5, 4, 5);
+            pictureBox3.Image = end_version.Properties.Resources.Access_Password_Icon__Flat_Design_;
+            pictureBox3.Location = new Point(36, 214);
+            pictureBox3.Margin = new Padding(4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(53, 46);
+            pictureBox3.Size = new Size(46, 34);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
@@ -133,18 +135,19 @@
             // txtUser
             // 
             txtUser.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtUser.Location = new Point(139, 214);
-            txtUser.Margin = new Padding(4, 5, 4, 5);
+            txtUser.Location = new Point(122, 160);
+            txtUser.Margin = new Padding(4);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(313, 30);
+            txtUser.Size = new Size(274, 26);
             txtUser.TabIndex = 2;
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(41, 208);
-            pictureBox2.Margin = new Padding(4, 5, 4, 5);
+            pictureBox2.Image = end_version.Properties.Resources.Username_password_icon;
+            pictureBox2.Location = new Point(36, 156);
+            pictureBox2.Margin = new Padding(4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(53, 46);
+            pictureBox2.Size = new Size(46, 34);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -152,13 +155,13 @@
             // FrmLogin
             // 
             AcceptButton = button1;
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(495, 516);
+            ClientSize = new Size(427, 387);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(4);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmLogin";

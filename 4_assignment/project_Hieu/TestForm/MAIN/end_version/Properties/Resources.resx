@@ -118,13 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Logo ĐH Thủy Lợi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo ĐH Thủy Lợi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download-_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_f3b1a7d1-b911-44ac-aed2-ba37957bec6a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_f3b1a7d1-b911-44ac-aed2-ba37957bec6a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download-_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Users.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo ĐH Thủy Lợi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo ĐH Thủy Lợi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Username password icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Username password icon.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Access Password Icon_ Flat Design_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Access Password Icon_ Flat Design_.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

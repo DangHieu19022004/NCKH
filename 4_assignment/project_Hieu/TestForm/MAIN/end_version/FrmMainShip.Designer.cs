@@ -57,14 +57,14 @@
             dgvOrder.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvOrder.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvOrder.Dock = DockStyle.Fill;
-            dgvOrder.Location = new Point(0, 199);
-            dgvOrder.Margin = new Padding(4, 5, 4, 5);
+            dgvOrder.Location = new Point(0, 149);
+            dgvOrder.Margin = new Padding(4);
             dgvOrder.MultiSelect = false;
             dgvOrder.Name = "dgvOrder";
             dgvOrder.ReadOnly = true;
             dgvOrder.RowHeadersWidth = 51;
             dgvOrder.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvOrder.Size = new Size(905, 135);
+            dgvOrder.Size = new Size(792, 101);
             dgvOrder.TabIndex = 25;
             dgvOrder.CellClick += dgvOrder_CellClick;
             // 
@@ -72,85 +72,92 @@
             // 
             lbShow.Dock = DockStyle.Fill;
             lbShow.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbShow.Location = new Point(0, 29);
+            lbShow.Location = new Point(0, 24);
             lbShow.Margin = new Padding(4, 0, 4, 0);
             lbShow.Name = "lbShow";
-            lbShow.Size = new Size(905, 165);
+            lbShow.Size = new Size(792, 122);
             lbShow.TabIndex = 4;
             lbShow.Text = "a -> b -> d";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(29, 89);
+            label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            label5.Location = new Point(25, 67);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(105, 20);
+            label5.Size = new Size(92, 15);
             label5.TabIndex = 4;
-            label5.Text = "Phone number";
+            label5.Text = "Phone number :";
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             button1.BackColor = Color.FromArgb(255, 224, 192);
             button1.Font = new Font("Arial", 10.2F, FontStyle.Bold);
             button1.ForeColor = Color.Blue;
-            button1.Location = new Point(601, 132);
-            button1.Margin = new Padding(4, 5, 4, 5);
+            button1.Location = new Point(526, 99);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(180, 42);
+            button1.Size = new Size(221, 32);
             button1.TabIndex = 10;
-            button1.Text = "Trả hàng";
+            button1.Text = "Return goods";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // txbW
             // 
-            txbW.Location = new Point(601, 81);
-            txbW.Margin = new Padding(4, 5, 4, 5);
+            txbW.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txbW.Enabled = false;
+            txbW.Location = new Point(526, 61);
+            txbW.Margin = new Padding(4);
             txbW.Name = "txbW";
             txbW.ReadOnly = true;
-            txbW.Size = new Size(180, 27);
+            txbW.Size = new Size(221, 23);
             txbW.TabIndex = 16;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(29, 28);
+            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            label1.Location = new Point(25, 21);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(49, 20);
+            label1.Size = new Size(45, 15);
             label1.TabIndex = 2;
-            label1.Text = "Name";
+            label1.Text = "Name :";
             // 
             // txbWeight
             // 
             txbWeight.AutoSize = true;
-            txbWeight.Location = new Point(499, 92);
+            txbWeight.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            txbWeight.Location = new Point(437, 69);
             txbWeight.Margin = new Padding(4, 0, 4, 0);
             txbWeight.Name = "txbWeight";
-            txbWeight.Size = new Size(71, 20);
+            txbWeight.Size = new Size(52, 15);
             txbWeight.TabIndex = 15;
-            txbWeight.Text = "Cân nặng";
+            txbWeight.Text = "Weight :";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(29, 148);
+            label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            label6.Location = new Point(25, 111);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(53, 20);
+            label6.Size = new Size(48, 15);
             label6.TabIndex = 5;
-            label6.Text = "Adress";
+            label6.Text = "Adress :";
             // 
             // panel6
             // 
             panel6.Controls.Add(lbShow);
             panel6.Controls.Add(label2);
             panel6.Dock = DockStyle.Bottom;
-            panel6.Location = new Point(0, 334);
-            panel6.Margin = new Padding(4, 5, 4, 5);
+            panel6.Location = new Point(0, 250);
+            panel6.Margin = new Padding(4);
             panel6.Name = "panel6";
-            panel6.Size = new Size(905, 194);
+            panel6.Size = new Size(792, 146);
             panel6.TabIndex = 24;
             // 
             // label2
@@ -161,45 +168,48 @@
             label2.Location = new Point(0, 0);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(163, 29);
+            label2.Size = new Size(190, 24);
             label2.TabIndex = 3;
-            label2.Text = "Lộ trình gợi ý";
+            label2.Text = "Suggested itinerary";
             // 
             // txbShipCost
             // 
-            txbShipCost.Location = new Point(601, 28);
-            txbShipCost.Margin = new Padding(4, 5, 4, 5);
+            txbShipCost.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txbShipCost.Enabled = false;
+            txbShipCost.Location = new Point(526, 21);
+            txbShipCost.Margin = new Padding(4);
             txbShipCost.Name = "txbShipCost";
             txbShipCost.ReadOnly = true;
-            txbShipCost.Size = new Size(180, 27);
+            txbShipCost.Size = new Size(221, 23);
             txbShipCost.TabIndex = 14;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(499, 35);
+            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            label4.Location = new Point(437, 26);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(68, 20);
+            label4.Size = new Size(84, 15);
             label4.TabIndex = 13;
-            label4.Text = "Tiền ship";
+            label4.Text = "Total amount :";
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(149, 81);
-            txtPhone.Margin = new Padding(4, 5, 4, 5);
+            txtPhone.Location = new Point(130, 61);
+            txtPhone.Margin = new Padding(4);
             txtPhone.Name = "txtPhone";
             txtPhone.ReadOnly = true;
-            txtPhone.Size = new Size(300, 27);
+            txtPhone.Size = new Size(263, 23);
             txtPhone.TabIndex = 7;
             // 
             // txtAdre
             // 
-            txtAdre.Location = new Point(149, 140);
-            txtAdre.Margin = new Padding(4, 5, 4, 5);
+            txtAdre.Location = new Point(130, 105);
+            txtAdre.Margin = new Padding(4);
             txtAdre.Name = "txtAdre";
             txtAdre.ReadOnly = true;
-            txtAdre.Size = new Size(300, 27);
+            txtAdre.Size = new Size(263, 23);
             txtAdre.TabIndex = 8;
             // 
             // panel2
@@ -219,38 +229,39 @@
             panel2.Location = new Point(0, 0);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(905, 199);
+            panel2.Size = new Size(792, 149);
             panel2.TabIndex = 23;
             // 
             // txtName
             // 
-            txtName.Location = new Point(149, 28);
-            txtName.Margin = new Padding(4, 5, 4, 5);
+            txtName.Location = new Point(130, 21);
+            txtName.Margin = new Padding(4);
             txtName.Name = "txtName";
             txtName.ReadOnly = true;
-            txtName.Size = new Size(300, 27);
+            txtName.Size = new Size(263, 23);
             txtName.TabIndex = 6;
             // 
             // panel1
             // 
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 528);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(0, 396);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(905, 34);
+            panel1.Size = new Size(792, 26);
             panel1.TabIndex = 22;
             // 
             // FrmMain
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
-            ClientSize = new Size(905, 562);
+            ClientSize = new Size(792, 422);
             Controls.Add(dgvOrder);
             Controls.Add(panel6);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Margin = new Padding(4, 5, 4, 5);
+            Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            Margin = new Padding(4);
             Name = "FrmMain";
             Text = "frmMain";
             Load += frmMain_Load;

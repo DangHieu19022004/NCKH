@@ -18,7 +18,7 @@ namespace shipper_end
     public partial class FrmLogin : Form
     {
         string phoneNum;
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=DataNew19-4_Hieu;Integrated Security=True";
         SqlConnection conn = null;
        
         public FrmLogin()
@@ -88,7 +88,7 @@ namespace shipper_end
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
+          
             FrmSignUp frmSignUp = new FrmSignUp();
             frmSignUp.ShowDialog();
         }

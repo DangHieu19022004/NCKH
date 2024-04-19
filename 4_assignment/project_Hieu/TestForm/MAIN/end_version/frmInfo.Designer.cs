@@ -28,197 +28,187 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.PictureBox pictureBox1;
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnReturn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtLicenses = new System.Windows.Forms.TextBox();
-            this.cbArea = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtHomeTown = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            PictureBox pictureBox1;
+            panel1 = new Panel();
+            btnReturn = new Button();
+            button1 = new Button();
+            label4 = new Label();
+            txtLicenses = new TextBox();
+            cbArea = new ComboBox();
+            label3 = new Label();
+            label2 = new Label();
+            txtHomeTown = new TextBox();
+            label1 = new Label();
+            txtName = new TextBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = global::end_version.Properties.Resources.Users;
-            pictureBox1.Location = new System.Drawing.Point(204, 15);
-            pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox1.Image = end_version.Properties.Resources.Users;
+            pictureBox1.Location = new Point(178, 14);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(231, 127);
-            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox1.Size = new Size(202, 119);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel1.Controls.Add(this.btnReturn);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.txtLicenses);
-            this.panel1.Controls.Add(this.cbArea);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.txtHomeTown);
-            this.panel1.Controls.Add(pictureBox1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.txtName);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(588, 554);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.FromArgb(192, 192, 255);
+            panel1.Controls.Add(btnReturn);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(txtLicenses);
+            panel1.Controls.Add(cbArea);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(txtHomeTown);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(txtName);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(508, 519);
+            panel1.TabIndex = 0;
             // 
             // btnReturn
             // 
-            this.btnReturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturn.ForeColor = System.Drawing.Color.Blue;
-            this.btnReturn.Location = new System.Drawing.Point(35, 462);
-            this.btnReturn.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(56, 47);
-            this.btnReturn.TabIndex = 17;
-            this.btnReturn.Text = "<<";
-            this.btnReturn.UseVisualStyleBackColor = false;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            btnReturn.BackColor = Color.FromArgb(255, 224, 192);
+            btnReturn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnReturn.ForeColor = Color.Blue;
+            btnReturn.Location = new Point(27, 433);
+            btnReturn.Margin = new Padding(4);
+            btnReturn.Name = "btnReturn";
+            btnReturn.Size = new Size(87, 44);
+            btnReturn.TabIndex = 17;
+            btnReturn.Text = "<<";
+            btnReturn.UseVisualStyleBackColor = false;
+            btnReturn.Click += btnReturn_Click;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(204, 462);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(231, 47);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Sign up";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.FromArgb(255, 224, 192);
+            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.Blue;
+            button1.Location = new Point(178, 433);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(202, 44);
+            button1.TabIndex = 16;
+            button1.Text = "Sign up";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(31, 373);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 20);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Licenses plates :";
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Blue;
+            label4.Location = new Point(27, 350);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(124, 16);
+            label4.TabIndex = 15;
+            label4.Text = "Licenses plates :";
             // 
             // txtLicenses
             // 
-            this.txtLicenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLicenses.Location = new System.Drawing.Point(204, 366);
-            this.txtLicenses.Margin = new System.Windows.Forms.Padding(4);
-            this.txtLicenses.Name = "txtLicenses";
-            this.txtLicenses.Size = new System.Drawing.Size(323, 30);
-            this.txtLicenses.TabIndex = 14;
+            txtLicenses.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtLicenses.Location = new Point(178, 343);
+            txtLicenses.Margin = new Padding(4);
+            txtLicenses.Name = "txtLicenses";
+            txtLicenses.Size = new Size(283, 26);
+            txtLicenses.TabIndex = 14;
             // 
             // cbArea
             // 
-            this.cbArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.cbArea.FormattingEnabled = true;
-            this.cbArea.Items.AddRange(new object[] {
-            "Ba Đình",
-            "Cầu Giấy",
-            "Đống Đa",
-            "Hai Bà Trưng",
-            "Hoàn Kiếm",
-            "Thanh Xuân",
-            "Hoàng Mai",
-            "Long Biên",
-            "Hà Đông",
-            "Tây Hồ",
-            "Nam Từ Liêm",
-            "Bắc Từ Liêm"});
-            this.cbArea.Location = new System.Drawing.Point(204, 298);
-            this.cbArea.Margin = new System.Windows.Forms.Padding(4);
-            this.cbArea.Name = "cbArea";
-            this.cbArea.Size = new System.Drawing.Size(323, 33);
-            this.cbArea.TabIndex = 13;
+            cbArea.Font = new Font("Microsoft Sans Serif", 12F);
+            cbArea.FormattingEnabled = true;
+            cbArea.Items.AddRange(new object[] { "Ba Đình", "Cầu Giấy", "Đống Đa", "Hai Bà Trưng", "Hoàn Kiếm", "Thanh Xuân", "Hoàng Mai", "Long Biên", "Hà Đông", "Tây Hồ", "Nam Từ Liêm", "Bắc Từ Liêm" });
+            cbArea.Location = new Point(178, 279);
+            cbArea.Margin = new Padding(4);
+            cbArea.Name = "cbArea";
+            cbArea.Size = new Size(283, 28);
+            cbArea.TabIndex = 13;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(31, 305);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 20);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Area :";
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Blue;
+            label3.Location = new Point(27, 286);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(48, 16);
+            label3.TabIndex = 12;
+            label3.Text = "Area :";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(31, 239);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 20);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Home town :";
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Blue;
+            label2.Location = new Point(27, 224);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(91, 16);
+            label2.TabIndex = 10;
+            label2.Text = "Home town :";
             // 
             // txtHomeTown
             // 
-            this.txtHomeTown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHomeTown.Location = new System.Drawing.Point(204, 231);
-            this.txtHomeTown.Margin = new System.Windows.Forms.Padding(4);
-            this.txtHomeTown.Name = "txtHomeTown";
-            this.txtHomeTown.Size = new System.Drawing.Size(323, 30);
-            this.txtHomeTown.TabIndex = 9;
+            txtHomeTown.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtHomeTown.Location = new Point(178, 217);
+            txtHomeTown.Margin = new Padding(4);
+            txtHomeTown.Name = "txtHomeTown";
+            txtHomeTown.Size = new Size(283, 26);
+            txtHomeTown.TabIndex = 9;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(31, 182);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Name :";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Blue;
+            label1.Location = new Point(27, 171);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(56, 16);
+            label1.TabIndex = 7;
+            label1.Text = "Name :";
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(204, 175);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(323, 30);
-            this.txtName.TabIndex = 6;
+            txtName.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtName.Location = new Point(178, 164);
+            txtName.Margin = new Padding(4);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(283, 26);
+            txtName.TabIndex = 6;
             // 
             // frmInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 554);
-            this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "frmInfo";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmInfo";
-            this.Load += new System.EventHandler(this.frmInfo_Load);
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(508, 519);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
+            Margin = new Padding(4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "frmInfo";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "frmInfo";
+            Load += frmInfo_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

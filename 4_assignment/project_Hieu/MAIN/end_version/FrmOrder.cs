@@ -1,4 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,7 +18,7 @@ namespace end_version
         {
             InitializeComponent();
         }
-        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string StrCon = @"Data Source=(local);Initial Catalog=DataNew18-4_Hieu;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";;
         SqlConnection con = null;
         SqlDataAdapter daOrders, daShip, daAss;
         DataTable dtOrders, dtShip, dtAss;
