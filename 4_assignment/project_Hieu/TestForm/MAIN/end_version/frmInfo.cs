@@ -18,7 +18,7 @@ namespace shipper_end
         {
             InitializeComponent();
         }
-        string StrCon = @"Data Source=(local);Initial Catalog=DataNew19-4_Hieu;Integrated Security=True";
+        string StrCon = @"Data Source=DOLPHIN;Initial Catalog=shipper;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         SqlConnection conn = null;
         string phone;
         string pass;

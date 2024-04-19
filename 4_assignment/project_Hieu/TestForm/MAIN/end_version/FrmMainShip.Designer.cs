@@ -72,10 +72,10 @@
             // 
             lbShow.Dock = DockStyle.Fill;
             lbShow.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbShow.Location = new Point(0, 24);
+            lbShow.Location = new Point(0, 29);
             lbShow.Margin = new Padding(4, 0, 4, 0);
             lbShow.Name = "lbShow";
-            lbShow.Size = new Size(792, 122);
+            lbShow.Size = new Size(792, 117);
             lbShow.TabIndex = 4;
             lbShow.Text = "a -> b -> d";
             // 
@@ -86,7 +86,7 @@
             label5.Location = new Point(25, 67);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(92, 15);
+            label5.Size = new Size(119, 20);
             label5.TabIndex = 4;
             label5.Text = "Phone number :";
             // 
@@ -96,7 +96,7 @@
             button1.BackColor = Color.FromArgb(255, 224, 192);
             button1.Font = new Font("Arial", 10.2F, FontStyle.Bold);
             button1.ForeColor = Color.Blue;
-            button1.Location = new Point(526, 99);
+            button1.Location = new Point(552, 99);
             button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(221, 32);
@@ -109,11 +109,11 @@
             // 
             txbW.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txbW.Enabled = false;
-            txbW.Location = new Point(526, 61);
+            txbW.Location = new Point(552, 61);
             txbW.Margin = new Padding(4);
             txbW.Name = "txbW";
             txbW.ReadOnly = true;
-            txbW.Size = new Size(221, 23);
+            txbW.Size = new Size(221, 27);
             txbW.TabIndex = 16;
             // 
             // label1
@@ -123,7 +123,7 @@
             label1.Location = new Point(25, 21);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(45, 15);
+            label1.Size = new Size(58, 20);
             label1.TabIndex = 2;
             label1.Text = "Name :";
             // 
@@ -134,7 +134,7 @@
             txbWeight.Location = new Point(437, 69);
             txbWeight.Margin = new Padding(4, 0, 4, 0);
             txbWeight.Name = "txbWeight";
-            txbWeight.Size = new Size(52, 15);
+            txbWeight.Size = new Size(66, 20);
             txbWeight.TabIndex = 15;
             txbWeight.Text = "Weight :";
             // 
@@ -145,7 +145,7 @@
             label6.Location = new Point(25, 111);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(48, 15);
+            label6.Size = new Size(62, 20);
             label6.TabIndex = 5;
             label6.Text = "Adress :";
             // 
@@ -168,7 +168,7 @@
             label2.Location = new Point(0, 0);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(190, 24);
+            label2.Size = new Size(240, 29);
             label2.TabIndex = 3;
             label2.Text = "Suggested itinerary";
             // 
@@ -176,11 +176,11 @@
             // 
             txbShipCost.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txbShipCost.Enabled = false;
-            txbShipCost.Location = new Point(526, 21);
+            txbShipCost.Location = new Point(552, 21);
             txbShipCost.Margin = new Padding(4);
             txbShipCost.Name = "txbShipCost";
             txbShipCost.ReadOnly = true;
-            txbShipCost.Size = new Size(221, 23);
+            txbShipCost.Size = new Size(221, 27);
             txbShipCost.TabIndex = 14;
             // 
             // label4
@@ -190,26 +190,26 @@
             label4.Location = new Point(437, 26);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(84, 15);
+            label4.Size = new Size(107, 20);
             label4.TabIndex = 13;
             label4.Text = "Total amount :";
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(130, 61);
+            txtPhone.Location = new Point(147, 61);
             txtPhone.Margin = new Padding(4);
             txtPhone.Name = "txtPhone";
             txtPhone.ReadOnly = true;
-            txtPhone.Size = new Size(263, 23);
+            txtPhone.Size = new Size(263, 27);
             txtPhone.TabIndex = 7;
             // 
             // txtAdre
             // 
-            txtAdre.Location = new Point(130, 105);
+            txtAdre.Location = new Point(147, 105);
             txtAdre.Margin = new Padding(4);
             txtAdre.Name = "txtAdre";
             txtAdre.ReadOnly = true;
-            txtAdre.Size = new Size(263, 23);
+            txtAdre.Size = new Size(263, 27);
             txtAdre.TabIndex = 8;
             // 
             // panel2
@@ -234,11 +234,11 @@
             // 
             // txtName
             // 
-            txtName.Location = new Point(130, 21);
+            txtName.Location = new Point(147, 21);
             txtName.Margin = new Padding(4);
             txtName.Name = "txtName";
             txtName.ReadOnly = true;
-            txtName.Size = new Size(263, 23);
+            txtName.Size = new Size(263, 27);
             txtName.TabIndex = 6;
             // 
             // panel1
@@ -252,7 +252,7 @@
             // 
             // FrmMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(792, 422);
