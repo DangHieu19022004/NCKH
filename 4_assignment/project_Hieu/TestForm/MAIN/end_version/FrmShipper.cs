@@ -88,6 +88,11 @@ namespace end_version
                 cmd.ExecuteNonQuery();
                 dtShip.Rows.Clear();
                 daShip.Fill(dtShip);
+                
+                string phone = dtShip.Rows[vitrichon][2].ToString();
+                string acc = "delete from account where username = '" + phone + "'";
+                SqlCommand sqlCommand = new SqlCommand(acc, conn);
+                sqlCommand.ExecuteNonQuery();
             }
 
 

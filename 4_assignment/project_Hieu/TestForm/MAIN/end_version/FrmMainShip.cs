@@ -249,6 +249,10 @@ namespace shipper_end
                 cmd.ExecuteNonQuery();
                 dt.Rows.Clear();
                 da.Fill(dt);
+
+                DateTime date = DateTime.Now;
+                SqlCommand sqlCommand = new SqlCommand("update assignment set delivery_date = '" + date.ToString("yyyy-MM-dd") + "' where order_id ='" + id + "' ", conn);
+                sqlCommand.ExecuteNonQuery();
             }
      
 
