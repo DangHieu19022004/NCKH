@@ -73,6 +73,16 @@ namespace end_version.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Access_Password_Icon__Flat_Design_ {
+            get {
+                object obj = ResourceManager.GetObject("Access Password Icon_ Flat Design_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__1_ {
             get {
                 object obj = ResourceManager.GetObject("download-_1_", resourceCulture);
@@ -86,6 +96,26 @@ namespace end_version.Properties {
         internal static System.Drawing.Bitmap Logo_ĐH_Thủy_Lợi {
             get {
                 object obj = ResourceManager.GetObject("Logo ĐH Thủy Lợi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Username_password_icon {
+            get {
+                object obj = ResourceManager.GetObject("Username password icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Users {
+            get {
+                object obj = ResourceManager.GetObject("Users", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
